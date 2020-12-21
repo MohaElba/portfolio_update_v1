@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/Background.jpg') no-repeat top center ;
+  background: url('images/background-image.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -69,18 +69,25 @@ header .profile-image {
   margin-top: 10px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border-radius: 70%;
+  border: 5px solid white;
+  transition: all .8s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(360deg);
+  transform: scale(1.5) rotate(360deg);
 }
 header .experience {
     display: block;
     margin-top: 100px;
     margin-right: auto;    
-    color: yellow;
+    color: white;
+}
+
+header .contact {
+    display: block;
+    margin-top: 100px;
+    margin-right: auto;    
+    color: white;
 }
 .tag {
   background-color: #efefef;
@@ -92,9 +99,13 @@ header .experience {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
-.card {
+.contact-info {
+  background-color: #222;
+  color: white;
+}
+section {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -104,7 +115,15 @@ header .experience {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+.email {
+  margin: 30px;
+  padding: 20px 40px;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+section:hover {
   border-color: #ff99ff;
 }
 
