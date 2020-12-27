@@ -31,6 +31,11 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+
+nav {
+  background-color: #000;
+}
+
 .nav {
   display: flex;
   justify-content: space-around;
